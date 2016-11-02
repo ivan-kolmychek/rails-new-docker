@@ -1,0 +1,7 @@
+version: '2'
+services:
+  rails-new:
+    build:
+      context: .
+    volumes:
+      - ~/ucd/api:/app
